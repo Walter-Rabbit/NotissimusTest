@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotissimusTest.Data", "..\NotissimusTest.Data\NotissimusTest.Data\NotissimusTest.Data.csproj", "{00D907F1-D9DB-4E67-8417-BCEE1E678D16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotissimusTest.Data", "NotissimusTest.Data\NotissimusTest.Data.csproj", "{00D907F1-D9DB-4E67-8417-BCEE1E678D16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotissimusTest.Core", "..\NotissimusTest.Core\NotissimusTest.Core\NotissimusTest.Core.csproj", "{3162CC32-423C-4801-9764-ABC6F6C676FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotissimusTest.Core", "NotissimusTest.Core\NotissimusTest.Core.csproj", "{3162CC32-423C-4801-9764-ABC6F6C676FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotissimusTest.Web", "..\NotissimusTest.Web\NotissimusTest.Web\NotissimusTest.Web.csproj", "{A931B54A-AADC-4A14-AF34-F8CC50BF3958}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotissimusTest.Web", "NotissimusTest.Web\NotissimusTest.Web.csproj", "{A931B54A-AADC-4A14-AF34-F8CC50BF3958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

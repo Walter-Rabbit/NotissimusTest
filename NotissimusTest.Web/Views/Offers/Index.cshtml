@@ -1,0 +1,25 @@
+﻿<div>
+    <h1>
+        @Html.Raw($"ID: {ViewData["id"]}")
+    </h1>
+    @{
+        <div class="list-group">
+            @{
+                foreach (var data in ViewData)
+                {
+                    if (data.Key != "id")
+                    {
+                        <div class="list-group-item flex-column align-items-start">
+                            <h2 class="mb-1">
+                                @Html.Raw($"{data.Key}:")
+                            </h2>
+                            <p class="mb-1">
+                                @Html.Raw((string)data.Value)
+                            </p>
+                        </div>
+                    }
+                }
+            }
+        </div>
+    }
+</div>
